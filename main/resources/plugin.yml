@@ -1,0 +1,22 @@
+name: BattleBox
+main: io.github.JoltMuz.BattleBox.Main
+version: 1.0
+author: JoltTheBolt
+description: A plugin for BattleBox event including teams and more.
+commands:
+  battlebox:
+    description: The commands for BattleBox event.
+    usage: /bb help
+    aliases: bb
+  team:
+    description: The commands for teaming or partying.
+    usage: /t or /p
+    aliases:
+      - t
+      - p
+      - party
+  spectate:
+    description: Spectate On-going Matches.
+    usage: /spec
+    aliases: spec
+  
